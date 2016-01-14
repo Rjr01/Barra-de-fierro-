@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Entregable</title>
+<style>
+#all{ background-color:red; width:75%; height:960px; border:3px dashed blue; margin: 0%; margin-left:20%; margin-right:20%;
+}
+#title{ text-align:center; border:2px dashed green; background-color:orange; margin-left:20%; margin-right:20%; margin-top:1%; margin-bottom:0%; height: 3%; widows: 61%;
+}
+#cero{ width: 60%; background-color:yellow; margin-left: 20%; height:840px; border:3px solid black;
+}
+#uno{ float:left; height:820px; background-color:pink; margin-left:1%; margin-top:1%; width: 48%; margin-top:1%
+}
+#dos{ float:right; height:820px; background-color: green; margin-right:1%; margin-top:1%; width:48%; margin-bottom:1%;
+}
+#tres{text-align:center;height:250px;background-color:skyblue;margin:1%;
+}
+/** desarrollo**/
+#s { background-color:red; margin-top:0%; width:80%; text-align: center; margin-left:10%; height:30px;
+	
+}
+	#one{ background-color:white; font-size:9px; height:198px;
+	}
+	#one h1{ font-size:10px; text-align:left;
+	}
+	#mydate{ padding:2%; margin-bottom: 3%;
+	}
+	#fd{ width:50%; background-color:red; margin-left:20%; margin-top:0;
+	}
+	#f{ width:50%; background-color:pink; text-align:center; margin-left:20%; margin-top:0%; margin-bottom:0%;
+	}
+	#the{ height:40px; background-color:yellow; width:50%; margin-left:20%; margin-top:0%;
+	}
+	#h{ width:50%; background-color:green; margin-left: 20%; margin-top:1%;
+	}
+	#gt{ width:40%; text-align:center; margin-left:30%; margin-top:0%; height:20px; background-color:white;
+	}
+/** clases**/
+.b{ text-align:center; color: blue; background-color:yellow; margin-left: 5%; margin-right: 5%; margin-top:4%; border:1px dashed blue; padding-bottom:3%; height: 6px;
+}
+
+
+	
+#cuatro{ text-align:center;height:250px;background-color:skyblue;margin:1%; 
+}
+#cinco{ text-align: center;height:250px;background-color:skyblue;margin:1%; margin-top:3%;
+}
+#seis{ width:95%; background-color: purple; margin-left:0%; margin-top:152%; margin-bottom:10%; height: 20px; border:3px double orange; text-align:left; padding-bottom:0%; padding:2%;
+}
+h1{ text-align: center; 
+}
+
+
+
+
+</style>
+</head>
+
+
+<body>
+<div id="all">
+        <div id="title"><em><p>Trabajo final</p></em></div>
+        <div id="cero">
+            <div id="uno">Nav</div>
+            <div id="dos">
+                <h1 id="s">Contenido</h1>
+                <div id="tres">parrafo 1
+                    <div id="one">
+                        <h1>Encabezado</h1>
+                        <h2 class="b">Titulo</h2>
+                        <input type="date" id="mydate" value="2015-01-05" />
+                        <br>
+                        <div id="fd">
+                            <p><strong> Contenido del articulo</strong></p>
+                        </div>
+                        <div id="f">
+                            <p>footer</p>
+                        </div>
+                        <div id="the">
+                            <p>article</p>
+                            <p id="demo1"></p>
+                            <p> contenido del comentario</p>
+                        </div>
+                        <div id="h">
+                            <p>Otro comentario</p>
+                        </div>
+                    </div>
+                    <div id="gt">
+                        <input type="button" value="Comentar" />
+                        <br>
+                    </div>
+                </div>
+                <div id="cuatro">parrafo 2
+                    <div id="one">
+                        <h1>Encabezado</h1>
+                        <h2 class="b">Titulo</h2>
+                        <input type="date" id="mydate" value="2015-01-05" />
+                        <br>
+                        <div id="fd">
+                            <p><strong> Contenido del articulo</strong></p>
+                        </div>
+                        <div id="f">
+                            <p>footer</p>
+                        </div>
+                        <div id="the">
+                            <p>article</p>
+                            <p id="demo2"></p>
+                            <p> contenido del comentario</p>
+                        </div>
+                        <div id="h">
+                            <p>Otro comentario</p>
+                        </div>
+                        <div id="gt">
+                            <input type="button" value="Comentar" />
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div id="cinco"> parrafo 3
+                    <div id="one">
+                        <h1>Encabezado</h1>
+                        <h2 class="b">Titulo</h2>
+                        <input type="date" id="mydate" value="2015-01-05" />
+                        <br>
+                        <div id="fd">
+                            <p><strong> Contenido del articulo</strong></p>
+                        </div>
+                        <div id="f">
+                            <p>footer</p>
+                        </div>
+                        <div id="the">
+                            <p>article</p>
+                            <p id="demo3"></p>
+                            <p> contenido del comentario</p>
+                        </div>
+                        <div id="h">
+                            <p>Otro comentario</p>
+                        </div>
+                        <div id="gt">
+                            <input type="button" value="Comentar" />
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="seis">
+                <p>footer</p>
+            </div>
+        </div>
+  <script>
+  var d = new Date().toLocaleString();
+  document.getElementById("demo1").innerHTML = d;
+  document.getElementById("demo2").innerHTML = d;
+  document.getElementById("demo3").innerHTML = d;
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
